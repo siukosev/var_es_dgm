@@ -1,3 +1,4 @@
 from .seed import seed_everything
 from .var_es_torch import estimate_var_es_torch, estimate_var_es_torch_multivariate
 from .compute_returns import compute_individual_returns, compute_portfolio_returns
+from .pick_device import pick_device
